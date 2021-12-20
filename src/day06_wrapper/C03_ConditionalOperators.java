@@ -1,8 +1,11 @@
 package day06_wrapper;
 
+import java.util.Scanner;
+@SuppressWarnings("unused")
+
 public class C03_ConditionalOperators {
 
-	@SuppressWarnings("unused")
+	
 	public static void main(String[] args) {
 		
 		System.out.println(5+3==8 || 6+5==10 || 7-2==3);// true
@@ -32,8 +35,8 @@ public class C03_ConditionalOperators {
 		char cinsiyet ='M';
 		
 		System.out.println(yas<30 && boy>170 && cinsiyet=='M'); // false
-		
-		
+     
+	
 
 	}
 
