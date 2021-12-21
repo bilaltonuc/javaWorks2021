@@ -20,7 +20,8 @@ public class C08 {
 	         *
 	         *
 	         */
-	        Scanner scan = new Scanner(System.in);
+	        @SuppressWarnings("resource")
+			Scanner scan = new Scanner(System.in);
 	        System.out.println("3 basamakli bir sayi giriniz");
 	        int sayi = scan.nextInt();
 
