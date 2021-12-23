@@ -1,11 +1,11 @@
-package lampa;
+package lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;import deneme.mainn;
 
-public class lampa1 {
+public class lambda1 {
 
 	public static void main(String[] args) {
 		
@@ -71,7 +71,7 @@ public class lampa1 {
 		
 	}
 	public static void printElFunctional1(List<Integer>list){
-		list.stream().forEach(lampa1::printEl);
+		list.stream().forEach(lambda1::printEl);
 	}
 	
 	
@@ -86,39 +86,39 @@ public class lampa1 {
 		
 	 public static void çiftf(List<Integer>list) {
 		 
-	list.stream().filter(t-> t%2==0).forEach(lampa1::printEl);
+	list.stream().filter(t-> t%2==0).forEach(lambda1::printEl);
 		
 		
 		
 	}
 	 public static void printCıftAltmısKucuk(List<Integer>list) {
 		 
-		 list.stream().filter(t-> t%2==0 & t<60).forEach(lampa1::printEl);
+		 list.stream().filter(t-> t%2==0 & t<60).forEach(lambda1::printEl);
 		 
 		 
 	 }
 	 
 	 public static void printTek(List<Integer>list) {
 		 
-		 list.stream().filter(t-> t%2==1 || t>20).forEach(lampa1::printEl);
+		 list.stream().filter(t-> t%2==1 || t>20).forEach(lambda1::printEl);
 	 }
  public static void printKare(List<Integer>list) {
 		 
-		 list.stream().filter(t-> t%2==0).map(t-> t*t).forEach(lampa1::printEl);
+		 list.stream().filter(t-> t%2==0).map(t-> t*t).forEach(lambda1::printEl);
 		 
 		 
 	 }
  
  public static void tekKüp(List<Integer>list) {
 	 
-	 list.stream().filter(t-> t%2==1).map(t-> (t*t*t)+1).forEach(lampa1::printEl);
+	 list.stream().filter(t-> t%2==1).map(t-> (t*t*t)+1).forEach(lambda1::printEl);
 	 
 	 
  }
  
     public static void kareKök(List<Integer> list) {
     	
-    	list.stream().filter(t-> t%2==0).map(Math::sqrt).forEach(lampa1::printEl);
+    	list.stream().filter(t-> t%2==0).map(Math::sqrt).forEach(lambda1::printEl);
     	
     }
 
