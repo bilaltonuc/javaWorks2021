@@ -4,8 +4,22 @@ public     class canlı {
 	
 
    
-   
-	public  void  bilal() {
+   public static void main(String[] args) {
+	   
+	  
+	   avg();
+	   
+	   
+   }
+	
+	
+	public static double avg(double...k) {
+		System.out.println(k.length);
+		return k.length;
+		
+	}
+
+	
 		
 	}
 	
@@ -15,4 +29,4 @@ public     class canlı {
 	
 	
 
-}
+

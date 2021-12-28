@@ -58,8 +58,7 @@ public class lambda1 {
 	
 	public static void printf(List<Integer> list) {
 		
-		list.stream().forEach(t->System.out.print(t+" "));
-		
+		list.stream().forEach(t->System.out.println(t+" "));
 		
 	}
 	

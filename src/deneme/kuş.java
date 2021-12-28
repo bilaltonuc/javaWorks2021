@@ -1,20 +1,24 @@
 package deneme;
 
-public class kuş extends canlı implements interfacee,interfaceee {
+public class kuş extends canlı {
 
 
 	
-	 interfacee nesne=new kuş();
-
-	@Override
-	public  void bilall() {
-		// TODO Auto-generated method stub
-		nesne.bilall();
 	
-	 
+
+public final  void bilal() {
+	System.out.println();
+		// TODO Auto-generated method stubreturn
+		
+		
+	
 			
 	
 	
 	} 
 
+public void bilal(int a) {
+	
+}
+ 
 }
